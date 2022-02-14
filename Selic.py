@@ -1,4 +1,3 @@
-from datetime import date
 cores = {'verde': '\033[1;32m',
         'vermelho': '\033[1;31m',
         'ciano': '\033[1;36m',
@@ -7,7 +6,7 @@ cores = {'verde': '\033[1;32m',
 
 deposito_inicial = float(input('Digite seu depósito inicial: R$ '))
 investimento = float(input('Digite aqui seu investimento mensal: R$ '))
-print(f'A taxa de juros do {cores["verde"]}PicPay{cores["limpar"]} é de {cores["verde"]}0.98%{cores["limpar"]} ao mês. Dados do dia {cores["ciano"]}{date.today()}{cores["limpar"]}')
+print(f'A taxa de juros do {cores["verde"]}PicPay{cores["limpar"]} é de {cores["verde"]}0.98%{cores["limpar"]} ao mês. Dados do dia {cores["ciano"]}(10/02/2022){cores["limpar"]}')
 mes = 1
 saldo = deposito_inicial + investimento
 while mes <= 24:
