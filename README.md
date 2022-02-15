@@ -5,4 +5,4 @@ Repositório criado para registar as habilidades que domino na linguagem Python 
 
 Vejá-o no arquivo "Selic.py".
 
-Data de início: 2022/02/11.
+Data de início: 11/02/2022.
